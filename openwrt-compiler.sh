@@ -22,10 +22,6 @@ zlib1g-dev git gawk libssl-dev -y
 cd $opdir
 go() #function of alter feeds,add packages,customed settings,add HG255D compile support etc.only implement to trunk.
 {
-#svn checkout svn://svn.openwrt.org/openwrt/trunk
-#git clone git://git.openwrt.org/openwrt.git
-#cd trunk
-#cd openwrt
 ################# add feeds and packages ####################
 # include rygel,shadowsocks,chinaDNS,shadownVPN,redsocks2,etc.
 echo "
